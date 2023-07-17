@@ -4,6 +4,8 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 from time import sleep
+import re
+
 options = Options()
 
 options.add_argument('window-size=900,800')
@@ -40,13 +42,14 @@ hospedagem = site.find('div', attrs={'itemprop':'itemListElement'})
 
 print(hospedagem.prettify())
 
-hospedagem_descricao = hospedagem.find('meta', attrs={'itemprop': 'name'})
+hospedagem_nome = hospedagem.find('meta', attrs={'itemprop': 'name'})
 hospedagem_url = hospedagem.find('meta', attrs={'itemprop': 'url'})
-print('Descricao:', hospedagem_descricao['content'])
+print('Nome:', hospedagem_nome['content'])
 print('URL:', hospedagem_url['content'])
 
-hospedagem_detalhes = hospedagem.find('div', attrs={'style': 'margin-bottom: 2px;'}).findAll('li')
-hospedagem_detalhes = ''.join([detalhe.text for detalhe in hospedagem_detalhes])
+hospedagem_detalhes = hospedagem.find('span', attrs={'class':'a8jt5op'})
+valor_por_noite = hospedagem_detalhes.text
 
+valor_numérico = re.search(r'\d+', valor_por_noite).group()
 
-print(hospedagem_detalhes)
+print('Valor por noite: R$', valor_numérico)
