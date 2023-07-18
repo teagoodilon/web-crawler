@@ -48,11 +48,11 @@ for hospedagem in hospedagens:
   hospedagem_nome = hospedagem.find('div', attrs={'data-testid':'listing-card-title'})              # Captura o nome
   hospedagem_detalhes = hospedagem.findAll('div', attrs={'data-testid':'listing-card-subtitle'})    # Captura os detalhes
   hospedagem_url = hospedagem.find('meta', attrs={'itemprop': 'url'})                               # Captura a url
-  hospedagem_preco = hospedagem.find('div', attrs={'class':'_1jo4hgw'}).text                             # Captura o preço
+  hospedagem_preco = hospedagem.find('div', attrs={'class':'_1jo4hgw'}).text                        # Captura o preco
   hospedagem_detalhes = ''.join([detalhe.text + ', ' for detalhe in hospedagem_detalhes])           # Faz um join de todos detalhes
   dados_hospedagens.append([hospedagem_nome.text, hospedagem_detalhes, hospedagem_url['content'], hospedagem_preco])
-dados = pd.DataFrame(dados_hospedagens, columns=['Nome', 'Detalhes', 'URL', 'Valor'])
 
+dados = pd.DataFrame(dados_hospedagens, columns=['Nome', 'Detalhes', 'URL', 'Valor'])
 data = datetime.datetime.now()
 dia = data.day
 mes = data.month
