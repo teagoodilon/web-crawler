@@ -22,15 +22,18 @@ Siga as etapas abaixo para executar o web scraper:
 
 1. **Pré-requisitos**: Certifique-se de ter instalado:
     - [Python3](https://www.python.org/downloads/)
-    - [Selenium](https://selenium-python.readthedocs.io/installation.html) ou se preferir ´pip install selenium´
-    - [Beatiful Soup](https://www.crummy.com/software/BeautifulSoup/bs4/download/) ou se preferir ´pip install bs4´
-    - [Requests](https://pypi.org/project/requests/#files) ou se preferir ´pip install requests´
-    - [Pandas](https://pandas.pydata.org/docs/getting_started/install.html) ou se preferir ´pip install pandas´
+    - [Selenium](https://selenium-python.readthedocs.io/installation.html) - `pip install selenium`
+    - [Beatiful Soup](https://www.crummy.com/software/BeautifulSoup/bs4/download/) - `pip install bs4`
+    - [Requests](https://pypi.org/project/requests/#files) - `pip install requests`
+    - [Pandas](https://pandas.pydata.org/docs/getting_started/install.html) - `pip install pandas`
     - [Google Chrome Driver](https://sites.google.com/chromium.org/driver/downloads) (**Verifique a versão instalada em seu computador**)
 
 2. **Execução**: Execute o script do web scraper: `main.py`.
 
 3. **Resultados**: Os dados coletados serão armazenados no arquivo de saída especificado nas configurações. Você pode encontrar os resultados lá para análise posterior.
+
+## Referências
+    
 
 ## 📋 Notas
 
