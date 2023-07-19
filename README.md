@@ -35,7 +35,7 @@ Siga as etapas abaixo para executar o web scraper:
 
 ## 📌 Comprovação do problema escolhido
 
-Atualmente ao acessar o site https://www.airbnb.com.br/ e tentarmos organizar dados manualmente em uma planilha, é inviável devido ao volume crescente de informações disponíveis, o tempo e esforço demandados, a suscetibilidade a erros e a falta de escalabilidade. Essa comprovação baseia-se em pesquisas, coleta de dados e interação como usuário. Para comprovar que a tarefa manual de organizar dados em uma planilha é inviável e limitada em vários aspectos. Os principais desafios que identificamos incluem:
+Atualmente ao acessar o site https://www.airbnb.com.br/ e tentarmos organizar dados manualmente em uma planilha, é inviável. Essa comprovação baseia-se em pesquisas, coleta de dados e interação como usuário. Para comprovar que a tarefa manual de organizar dados em uma planilha é inviável e limitada em vários aspectos. Os principais desafios que identificamos incluem:
 
 1. **Volume de dados**: Com o aumento exponencial da quantidade de informações de alugueis disponíveis diariamente, torna-se praticamente impossível analisar e organizar cada dado manualmente, especialmente em grandes conjuntos de dados.
 
