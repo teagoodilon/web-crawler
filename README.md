@@ -4,6 +4,7 @@
 Crawler, também conhecido como spider ou bot, refere-se a um programa automatizado que navega pela internet de forma metódica e sistemática.
 O crawler é uma parte essencial do scraping, pois ajuda a encontrar e acessar as páginas, mas o scraping em si é o processo de extração dos dados dessas páginas identificadas.
 
+
 ## 📝 Índice
 - [🕷 Projeto de Web Scraping 👨‍💻](#-projeto-de-web-scraping-)
   - [📝 Índice](#-índice)
@@ -17,13 +18,17 @@ O crawler é uma parte essencial do scraping, pois ajuda a encontrar e acessar a
   - [Referências](#referências)
   - [📋 Notas](#-notas)
   - [💼 Autores](#-autores)
+
+
 ## 🔎 Descrição
 
 Este é um projeto de web scraping desenvolvido para coletar dados específicos de um site da web. O web scraper é projetado para extrair informações de [AirBnb](https://www.airbnb.com.br/) e armazená-las em um formato estruturado para análise posterior.
 
+
 ## 🎯 Aplicação Social
 
 Acreditamos que o acesso à informação é fundamental para promover a equidade no mercado. Ao disponibilizar preços atualizados e detalhes sobre aluguel temporário em várias regiões, nossa aplicação empodera os usuários a tomarem decisões mais informadas e conscientes sobre suas escolhas de hospedagem, facilitando a comparação de preços e a identificação de oportunidades de economia através planilhas.
+
 
 ## 📌 Comprovação do problema escolhido
 
@@ -37,6 +42,7 @@ Atualmente ao acessar o site https://www.airbnb.com.br/ e tentarmos organizar da
 
 4. **Escalabilidade**: À medida que os conjuntos de dados crescem em tamanho e complexidade, a organização manual se torna ainda mais desafiadora e impraticável. A falta de escalabilidade pode limitar a capacidade de lidar com grandes volumes de dados de forma eficiente e precisa.
 
+
 ## ⚙ Funcionalidades
 
 O web scraper implementa as seguintes funcionalidades:
@@ -44,6 +50,7 @@ O web scraper implementa as seguintes funcionalidades:
 - Acesso ao site [AirBnb](https://www.airbnb.com.br/) para coletar os dados.
 - Extração de informações específicas, como nome, descrição, url e preço.
 - Armazenamento dos dados coletados em um arquivo .csv.
+
 
 ## ⏩ Como Usar
 
@@ -61,7 +68,8 @@ Siga as etapas abaixo para executar o web scraper:
 
 3. **Resultados**: Os dados coletados serão armazenados no arquivo de saída especificado nas configurações. Você pode encontrar os resultados lá para análise posterior.
 
-## 🛠 Arquitetura do Sistema:
+
+## 🛠 Arquitetura do Sistema
 
 O sistema tem três partes: 
 
@@ -77,7 +85,8 @@ A Visão Arquitetônica do Web Scraping é constituída pela:
 
 ![Arquitetura](arquitetura.png)
 
-## 🪜 Estrutura do projeto:
+
+## 🪜 Estrutura do projeto
 ```
 raiz/
 ├── dodos-cidades (Dados coletados)
@@ -88,12 +97,18 @@ raiz/
 - `README.md`(documentação)
 - `main.py`(código)
 
-## Referências
-    
+
+## 🔗 Referências
+- https://www.crummy.com/software/BeautifulSoup/bs4/doc/
+- https://selenium-python.readthedocs.io/index.html
+- [Web Scraping com Python](https://www.youtube.com/watch?v=JCAXHSKZTkc&list=PLg3ZPsW_sghSkRacynznQeEs-vminyTQk&index=8)
+- PADGHAN, Sameer; CHIGLE, Satish; HANDOO, Rahul. Web Scraping-Data Extraction Using Java Application and Visual Basics Macros. Journal Of Advances And Scholarly Researches In Allied Education. p. 691-695. abr. 2018.
+
 
 ## 📋 Notas
 
 - Este projeto de web scraping foi desenvolvido apenas para fins educacionais e demonstrativos. Respeite os termos de serviço e políticas de uso do site alvo antes de realizar qualquer raspagem de dados.
+
 
 ## 💼 Autores
 - [Jhonatan Gardioli](https://github.com/Jhowg14)
