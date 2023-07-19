@@ -32,6 +32,30 @@ Siga as etapas abaixo para executar o web scraper:
 
 3. **Resultados**: Os dados coletados serão armazenados no arquivo de saída especificado nas configurações. Você pode encontrar os resultados lá para análise posterior.
 
+
+## 📌 Comprovação do problema escolhido
+
+Atualmente ao acessar o site https://www.airbnb.com.br/ e tentarmos organizar dados manualmente em uma planilha, é inviável devido ao volume crescente de informações disponíveis, o tempo e esforço demandados, a suscetibilidade a erros e a falta de escalabilidade. Essa comprovação baseia-se em pesquisas, coleta de dados e interação como usuário. Para comprovar que a tarefa manual de organizar dados em uma planilha é inviável e limitada em vários aspectos. Os principais desafios que identificamos incluem:
+
+1. **Volume de dados**: Com o aumento exponencial da quantidade de informações de alugueis disponíveis diariamente, torna-se praticamente impossível analisar e organizar cada dado manualmente, especialmente em grandes conjuntos de dados.
+
+2. **Tempo e esforço**: A organização manual demanda um tempo considerável e esforço humano, o que pode levar a atrasos, erros e ineficiência geral no processo. Além disso, o tempo gasto na organização manual de dados poderia ser direcionado para outras questões mais valiosas.
+
+3. **Suscetibilidade a erros**: O processo manual está sujeito a erros humanos, como digitação incorreta, interpretação equivocada dos dados ou omissão de informações relevantes. Esses erros podem comprometer a integridade dos dados e a precisão das análises subsequentes.
+
+4. **Escalabilidade**: À medida que os conjuntos de dados crescem em tamanho e complexidade, a organização manual se torna ainda mais desafiadora e impraticável. A falta de escalabilidade pode limitar a capacidade de lidar com grandes volumes de dados de forma eficiente e precisa.
+
+## 🪜 Estrutura do projeto:
+```
+raiz/
+├── dodos-cidades (Dados coletados)
+└── READMI.md (Documentação)
+└── main.py (Código)
+```
+- `dados-cidades`(dados coletados)
+- `README.md`(documentação)
+- `main.py`(código)
+
 ## Referências
     
 
@@ -40,7 +64,7 @@ Siga as etapas abaixo para executar o web scraper:
 - Este projeto de web scraping foi desenvolvido apenas para fins educacionais e demonstrativos. Respeite os termos de serviço e políticas de uso do site alvo antes de realizar qualquer raspagem de dados.
 
 ## 💼 Autores
-- [Jhonatan](https://github.com/Jhowg14)
+- [Jhonatan Gardioli](https://github.com/Jhowg14)
 - [Lucas Neves](https://github.com/lucasnves)
 - [Lucas Mendonça](https://github.com/Lucasgmendonca)
 - [Thiago Odilon](https://github.com/teagoodilon)
