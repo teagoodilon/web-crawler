@@ -73,21 +73,21 @@ Siga as etapas abaixo para executar o web scraper:
 
 O sistema tem três partes: 
 
-•	Busca: O processo começa quando o usuário acessa o site. Depois disso, a extração dos dados ocorre na página da web buscada.
+-	Busca: O processo começa quando o usuário acessa o site. Depois disso, a extração dos dados ocorre na página da web buscada.
 
-•	Extração: A segunda parte é a extração dos dados, nesta parte é obtido os dados relevantes do sistema.
+-	Extração: A segunda parte é a extração dos dados, nesta parte é obtido os dados relevantes do sistema.
 
-•	Salvamento: O último, mas não menos importante, salva-se os dados. Nesse caso, os dados extraídos da página da web buscada estão sendo salvos em uma planilha.
+-	Salvamento: O último, mas não menos importante, salva-se os dados. Nesse caso, os dados extraídos da página da web buscada estão sendo salvos em uma planilha.
 
 
 
 A Visão Arquitetônica do Web Scraping é constituída pela: 
 
-•	Internet, que é a fonte de dados para o web scraping. É onde os dados desejados estão disponíveis em várias páginas da web.
+-	Internet, que é a fonte de dados para o web scraping. É onde os dados desejados estão disponíveis em várias páginas da web.
 
-•	Software (Web Scraping), que é responsável pelo processo de extração de dados dos sites. Ele envia solicitações para os servidores web, baixa as páginas relevantes e extrai os dados desejados dessas páginas.
+-	Software (Web Scraping), que é responsável pelo processo de extração de dados dos sites. Ele envia solicitações para os servidores web, baixa as páginas relevantes e extrai os dados desejados dessas páginas.
 
-•	Banco de dados, que é usado para armazenar os dados coletados pelo sistema de web scraping. Esses dados podem ser armazenados em um formato estruturado que permite consultas e análises posteriores. O Excel, ou planilha é ilustrado como um exemplo de formato de saída, onde dados podem ser salvos.
+-	Banco de dados, que é usado para armazenar os dados coletados pelo sistema de web scraping. Esses dados podem ser armazenados em um formato estruturado que permite consultas e análises posteriores. O Excel, ou planilha é ilustrado como um exemplo de formato de saída, onde dados podem ser salvos.
 
 ![Arquitetura](arquitetura.png)
 
