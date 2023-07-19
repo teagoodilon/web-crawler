@@ -80,6 +80,7 @@ O sistema tem três partes:
 •	Salvamento: O último, mas não menos importante, salva-se os dados. Nesse caso, os dados extraídos da página da web buscada estão sendo salvos em uma planilha.
 
 
+
 A Visão Arquitetônica do Web Scraping é constituída pela: 
 
 •	Internet, que é a fonte de dados para o web scraping. É onde os dados desejados estão disponíveis em várias páginas da web.
