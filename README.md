@@ -1,7 +1,7 @@
 # 🕷 Projeto de Web Scraping 👨‍💻
 
 ## 📍 Definiçao
-Crawler, também conhecido como spider ou bot, refere-se a um programa automatizado que navega pela internet de forma metódica e sistemática.
+Crawler, também conhecido como spider ou bot, refere-se a um programa automatizado que navega pela internet de forma metódica e sistemática, visitando páginas da web e coletando informações de forma metódica.
 O crawler é uma parte essencial do scraping, pois ajuda a encontrar e acessar as páginas, mas o scraping em si é o processo de extração dos dados dessas páginas identificadas.
 
 
